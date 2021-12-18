@@ -1,0 +1,103 @@
+{
+    "indianhelpline.com":[
+        {
+            "Worldwide Helpline":[
+                
+            ],
+            "Birds and Animal Helpline":[
+
+            ],
+            "De-Addiction Helpline":[
+
+            ],
+            "Food Helplin":[
+
+            ],
+            "Men Helpline":[
+
+            ],
+            "Child Helpline":[
+
+            ],
+            "Senior Citizen Helpline":[
+
+            ]
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "indianhelpline.com": [
+      {
+        "Worldwide Helpline": [
+          {
+            name: "Afghanistan",
+            contact: "119",
+          },
+          {
+            name: "Albania",
+            contact: "112",
+          },
+        ],
+      },
+      {
+        "De-Addiction Helpline": [
+          {
+            name: "ALPHA HEALING CENTRE",
+            contact: "1800-547-2060",
+          },
+          {
+            name: "REHABS.IN",
+            contact: "https://rehabs.in/contact-us/",
+          },
+        ],
+      },
+      {
+        "Birds and Animal Helpline": [
+          {
+            name: "PETA INDIA",
+            contact: "+91 98201 22602",
+          },
+          {
+            name: "Digamber Jain Charity Bird Hospital",
+            contact: "+91 98100 16162",
+          },
+        ],
+      },
+    ],
+  };
+  
