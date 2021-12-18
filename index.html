@@ -1,69 +1,76 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>INDIAN HELPLINE.COM</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-  <link rel="stylesheet" href="styles/styles.css">
-  <script src='main.js'></script>
-  <style>
-  </style>
-</head>
-<body>
-
-
-  <div class="navbar">
-    <a class="active" href="index.html">Home</a>
-    <div class="dropdown">
-      <button class="dropbtn">Important Numbers 
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#">Worlwide Helpline</a>
-        <a href="#">Birds And Animal Helpline</a>
-        <a href="#">De Addiction Helpline</a>
-        <a href="http://">Food Helpline</a>
-        <a href="">Men Helpline</a>
-        <a href="">Child Helpline</a>
-        <a href="">Senior Citizen Helpline</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>INDIAN HELPLINE.COM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="main.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="active" href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Important Numbers
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a onclick="renderWorldwideHelpline()">Worlwide Helpline</a>
+          <a onclick="renderBirdsAndAnimal()">Birds And Animal Helpline</a>
+          <a onclick="renderDeAddiction()">De Addiction Helpline</a>
+          <a onclick="renderFood()">Food Helpline</a>
+          <a onclick="renderMen()">Men Helpline</a>
+          <a onclick="renderChild()">Child Helpline</a>
+          <a onclick="renderSeniorCitizen()">Senior Citizen Helpline</a>
+        </div>
       </div>
-    </div> 
 
-
-    <div class="dropdown">
-      <button class="dropbtn">Health Zone 
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#">Online Doctor Consultation</a>
-        <a href="#">Online Lab Booking</a>
-        <a href="#">Ambulance Helpline</a>
-        <a href="">Health Guide</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Health Zone
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Online Doctor Consultation</a>
+          <a href="#">Online Lab Booking</a>
+          <a href="#">Ambulance Helpline</a>
+          <a href="">Health Guide</a>
+        </div>
       </div>
-    </div> 
 
-    <div class="dropdown">
-      <button class="dropbtn">Covid Guide
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#">Plasma Helpline</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Covid Guide
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Plasma Helpline</a>
+        </div>
       </div>
-    </div> 
 
-    <div class="dropdown">
-      <button class="dropbtn">About Us
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#">About Developers</a>
-        <a href="#">Contact Us</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          About Us
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">About Developers</a>
+          <a href="#">Contact Us</a>
+        </div>
       </div>
-    </div> 
-  </div>
-  
-
-</body>
+    </div>
+    <br /><br />
+    <h1 id="mainh1">Welcome to Helpline Services Contact Directory</h1>
+    <br />
+    <div class="table center" id="root">
+      <table class="wp-table" id="maintable">
+        <tbody id="rootfinal"></tbody>
+      </table>
+    </div>
+    <script src="./main.js"></script>
+  </body>
 </html>
