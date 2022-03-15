@@ -19,13 +19,14 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a onclick="renderWorldwideHelpline()">Worlwide Helpline</a>
-          <a onclick="renderBirdsAndAnimal()">Birds And Animal Helpline</a>
-          <a onclick="renderDeAddiction()">De Addiction Helpline</a>
-          <a onclick="renderFood()">Food Helpline</a>
-          <a onclick="renderMen()">Men Helpline</a>
-          <a onclick="renderChild()">Child Helpline</a>
-          <a onclick="renderSeniorCitizen()">Senior Citizen Helpline</a>
+          <a onclick="renderTable(event)" id="worldwide">Worlwide Helpline</a>
+          <a onclick="renderTable(e)" id="birdsAndAnimal"
+            >Birds And Animal Helpline</a
+          >
+          <a onclick="renderTable(e)" id="deAddiction">De Addiction Helpline</a>
+          <a onclick="renderTable(e)" id="food">Food Helpline</a>
+          <a onclick="renderTable(e)" id="child">Child Helpline</a>
+          <a onclick="renderTable(e)" id="senior">Senior Citizen Helpline</a>
         </div>
       </div>
 
@@ -35,10 +36,11 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="#">Online Doctor Consultation</a>
-          <a href="#">Online Lab Booking</a>
-          <a href="#">Ambulance Helpline</a>
-          <a href="">Health Guide</a>
+          <a onclick="renderTable(e)" id="onlineDoctor"
+            >Online Doctor Consultation</a
+          >
+          <a onclick="renderTable(e)" id="onlineLab">Online Lab Booking</a>
+          <a onclick="renderTable(e)" id="ambulance">Ambulance Helpline</a>
         </div>
       </div>
 
