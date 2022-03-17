@@ -19,14 +19,14 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a onclick="renderTable(event)" id="worldwide">Worlwide Helpline</a>
-          <a onclick="renderTable(e)" id="birdsAndAnimal"
+          <a onclick="renderData(event)" id="12345">Worlwide Helpline</a>
+          <a onclick="renderData(event)" id="12346"
             >Birds And Animal Helpline</a
           >
-          <a onclick="renderTable(e)" id="deAddiction">De Addiction Helpline</a>
-          <a onclick="renderTable(e)" id="food">Food Helpline</a>
-          <a onclick="renderTable(e)" id="child">Child Helpline</a>
-          <a onclick="renderTable(e)" id="senior">Senior Citizen Helpline</a>
+          <a onclick="renderData(event)" id="12347">De Addiction Helpline</a>
+          <a onclick="renderData(event)" id="12348">Food Helpline</a>
+          <a onclick="renderData(event)" id="12349">Child Helpline</a>
+          <a onclick="renderData(event)" id="12350">Senior Citizen Helpline</a>
         </div>
       </div>
 
@@ -36,11 +36,11 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a onclick="renderTable(e)" id="onlineDoctor"
+          <a onclick="renderData(event)" id="12351"
             >Online Doctor Consultation</a
           >
-          <a onclick="renderTable(e)" id="onlineLab">Online Lab Booking</a>
-          <a onclick="renderTable(e)" id="ambulance">Ambulance Helpline</a>
+          <a onclick="renderData(event)" id="12352">Online Lab Booking</a>
+          <a onclick="renderData(event)" id="12353">Ambulance Helpline</a>
         </div>
       </div>
 
@@ -49,8 +49,8 @@
           Covid Guide
           <i class="fa fa-caret-down"></i>
         </button>
-        <div class="dropdown-content">
-          <a href="#">Plasma Helpline</a>
+        <div class="dropdown-content" >
+          <a href="#" id="12355">Plasma Helpline</a>
         </div>
       </div>
 
@@ -70,9 +70,15 @@
     <br />
     <div class="table center" id="root">
       <table class="wp-table" id="maintable">
-        <tbody id="rootfinal"></tbody>
+        <tbody id="table">
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+          </tr>
+        </tbody>
       </table>
     </div>
     <script src="./main.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
