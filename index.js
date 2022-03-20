@@ -33,7 +33,7 @@ function insertData(arr) {
         const td1 = document.createElement("td");
         const td2 = document.createElement("td");
         td1.innerHTML = arr[i].org;
-        td2.innerHTML = arr[i].contact;
+        td2.innerHTML = `<a href="tel:${arr[i].contact}">${arr[i].contact}</a>`;
         tr.appendChild(td1);
         tr.appendChild(td2);
         table.appendChild(tr);
